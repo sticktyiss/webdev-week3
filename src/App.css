@@ -21,3 +21,13 @@ time, mark, audio, video {
 }
 
 /* --------- Begin your CSS Below here --------- */
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+	padding: 8px;
+	border: none;
+	background-color: rgba(62, 150, 165, 0.941);
+	color: white;
+	border-radius: 3px;
+}

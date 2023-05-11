@@ -1,4 +1,5 @@
 import React from "react";
+import './AdBanner.css'
 import salmon from "../../assets/salmon.jpg";
 import { Link } from "react-router-dom";
 
@@ -13,10 +14,9 @@ const AdBanner = () => {
           url(${salmon})`,
         backgroundSize: "cover",
         height: '50vh',
-
       }}
     >
-      <div>
+      <div id="adBanner">
         <h3>New Recipe</h3>
         <h1>Pineapple Salmon</h1>
         <h3>

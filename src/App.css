@@ -24,6 +24,10 @@ time, mark, audio, video {
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.App {
+	display: flex;
+	flex-direction: column;
+}
 button {
 	padding: 8px;
 	border: none;
